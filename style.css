@@ -1,0 +1,90 @@
+#nav{
+    /* what content is present in verticaly it will convert it to horizontally */
+    display:flex; 
+    /* it will provide space between written elements       */
+    justify-content:space-around;
+    margin-top: 12px;
+}
+#nav1{
+    display:flex;
+    /* it will convert flex direction into column because by default it is always in row */
+    flex-direction:column;
+}
+#logo_name{
+    font-size: 20px;
+    /* The font-family CSS property specifies a prioritized list of one or more font family names  */
+    font-family:sans-serif;
+    font-style: italic;
+    color: #2a55e5;
+    font-weight: bold;
+
+    
+}
+#input_data{
+    border:none;
+    width:350px;
+    height:20px;
+    padding-left:12px;
+    background-color: #F0F5FF;
+}
+.navtab{
+    display:flex;
+    align-items:center;
+
+
+}
+#searchbar{
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
+}
+#categories{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 6px;
+    margin: 12px;
+    margin: auto;
+
+
+}
+#categories > div > img{
+    height:60px;
+    width:70px;
+}
+#categories>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+option{
+    font-size: 15px; 
+    font-family: sans-serif;
+}
+
+select{
+    border: none;
+    font-size: 15px; 
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+/* Padding is applied inside the border of an element.
+It is used to create space around the content of the element. */
+/* Padding is the space inside the border of an element, affecting the space around the content.
+Margin is the space outside the border of an element, affecting the space around the element in relation to its neighboring elements. */
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    height: 250px;
+   
+}
+.heading{
+    color: grey;
+}
+
+
